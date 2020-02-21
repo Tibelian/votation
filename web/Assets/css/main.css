@@ -1,0 +1,36 @@
+
+body{
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+}
+header{
+    margin-bottom: 20px;
+}
+header, footer{
+    width: 100%;
+}
+
+main{
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+header .info a{
+    color: var(--light);
+}
+
+
+
+.form-group label{
+    cursor: pointer;
+}
+
