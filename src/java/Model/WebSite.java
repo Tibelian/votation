@@ -4,7 +4,7 @@ package Model;
 public class WebSite {
 
     private static String title = "Votation System";
-    private static String url = "http://localhost:8080/Votation";
+    private static String url = "http://localhost:8080/votation";
 
     public static String getTitle() {
         return title;

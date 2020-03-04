@@ -105,6 +105,12 @@ public class Voter {
             this.role = "Voter";
         }
     }
+
+    @Override
+    public String toString() {
+        return "Voter{" + "id=" + id + ", nif=" + nif + ", firstName=" + firstName + ", lastName=" + lastName + ", residence=" + residence + ", bornDate=" + bornDate + ", password=" + password + ", voted=" + voted + ", role=" + role + '}';
+    }
+    
     
     
     
